@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class ErsteTeilAufgabe {
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(new FileReader("WQU.txt"));
-        int N = 0;
-        List<Integer> l1 = new ArrayList<Integer>();
-        List<Integer> l2 = new ArrayList<Integer>();
+        int N;
+        List<Integer> l1 = new ArrayList<>();
+        List<Integer> l2 = new ArrayList<>();
 
         while (s.hasNext()) {
             l1.add(s.nextInt());
